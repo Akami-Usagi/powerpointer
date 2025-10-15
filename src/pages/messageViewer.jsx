@@ -10,8 +10,6 @@ const BackgoundVideo = styled.video`
     object-fit: cover;
     filter: brightness(60%);
 `
-
-
 const AvanzandoLogo = styled.img`
   width: 900px;
   position: absolute;
@@ -20,9 +18,16 @@ const AvanzandoLogo = styled.img`
   top: 0;
   bottom: 0;
   margin: auto;
-  
 `
-
+const BottomImage = styled.img`
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 800px;
+  margin: auto;
+`
 
 const MessageViewer = () => {
   
@@ -35,6 +40,7 @@ const MessageViewer = () => {
     </BackgoundVideo>
     
     <AvanzandoLogo src="images/logo.png"/>
+    <BottomImage src="images/logo_bottom.png"/>
     
         
       
