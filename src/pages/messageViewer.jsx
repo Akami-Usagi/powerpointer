@@ -8,26 +8,9 @@ const BackgoundVideo = styled.video`
     left: 0;
     z-index: -1;
     object-fit: cover;
-    filter: brightness(60%);
+    
 `
-const AvanzandoLogo = styled.img`
-  width: 900px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-`
-const BottomImage = styled.img`
-  height: 150px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 800px;
-  margin: auto;
-`
+
 
 const MessageViewer = () => {
   
@@ -39,8 +22,7 @@ const MessageViewer = () => {
             Tu navegador no soporta videos HTML5
     </BackgoundVideo>
     
-    <AvanzandoLogo src="images/logo.png"/>
-    <BottomImage src="images/logo_bottom.png"/>
+    
     
         
       
